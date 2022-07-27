@@ -1,11 +1,13 @@
 import re
 Hello again !!
 one more text
+sdasdas
 def rotate(param):
     if param == "left":
         return (-1, 0)
     if param == "right":
-        return (1, 0)
+        return\
+            (1, 0)
     if param == "up":
         return (0, 1)
     if param == "down":
