@@ -1,5 +1,7 @@
 import re
 
+
+
 def rotate(param):
     if param == "left":
         return (-1, 0)
