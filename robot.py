@@ -1,19 +1,17 @@
 import re
-Hello again !!
-one more text
-sdasdas
-def rotate(param):
+from typing import Tuple
+
+def rotate(param:Tuple):
     if param == "left":
         return (-1, 0)
     if param == "right":
-        return\
-            (1, 0)
+        return (1, 0)
     if param == "up":
         return (0, 1)
     if param == "down":
         return (0, -1)
 
-def execute(code):
+def execute(code:str):
     my_map = list()
     n,m = 20,20
     my_map = [[" "] * m for _ in range(n)]
